@@ -10,7 +10,7 @@ Wireshark
 Burpsuite
 Python
 ### Current Goals
-Build a strong cybersecurity portfolio
+Building a strong cybersecurity portfolio
 complete practical SOC and penetration testing labs.
 Earn industry reconized certifications
 ####
