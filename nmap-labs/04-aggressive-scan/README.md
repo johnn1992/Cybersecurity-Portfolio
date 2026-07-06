@@ -31,4 +31,4 @@ This scan provides a comprehensive overview of the target system and is commonly
 
 ## Screenshot
 
-The screenshot will be added after it is uploaded to this folder.
+![Aggressive Scan Screenshot](Screenshot%202026-07-03%20115209.png?raw=true)
