@@ -22,4 +22,4 @@ The `-sV` option tells Nmap to probe open ports and determine the version of the
 
 ## Screenshot
 
-The screenshot will be added after it is uploaded to this folder.
+![Service Version Scan Screenshot](Screenshot%202026-07-03%20110853.png?raw=true)
