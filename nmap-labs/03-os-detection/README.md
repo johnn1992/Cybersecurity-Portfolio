@@ -24,4 +24,4 @@ The `-O` option enables operating system detection. Nmap analyzes the target's n
 
 ## Screenshot
 
-The screenshot will be added after it is uploaded to this folder.
+![OS Detection Screenshot](Screenshot%202026-07-06%20090822.png?raw=true)
