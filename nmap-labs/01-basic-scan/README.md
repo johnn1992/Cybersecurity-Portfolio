@@ -22,4 +22,4 @@ This command performs a basic TCP scan against the target host. It identifies op
 
 ## Screenshot
 
-The screenshot will be added after it is uploaded to this folder.
+![Basic Scan Screenshot](Screenshot%202026-07-03%20101817.png?raw=true)
