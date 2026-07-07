@@ -14,7 +14,8 @@ The scan was used to identify:
 - Basic network information about the target
 
 ## Evidence
-The screenshot shows the output from the Nmap basic scan.
+
+![Nmap Basic Scan Screenshot](./Screenshot%202026-07-03%20101817.png)
 
 ## Conclusion
 This exercise helped build an understanding of network reconnaissance using Nmap.
