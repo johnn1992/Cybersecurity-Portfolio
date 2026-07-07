@@ -1,0 +1,21 @@
+# Nikto Web Server Scan
+
+## Overview
+Nikto is an open-source web server scanner used to identify potential security issues, outdated software versions, and common vulnerabilities on web servers.
+
+## Scan Command Used
+
+nikto -h <target-ip>
+
+## Findings
+The scan was performed to identify:
+- Web server information
+- Possible outdated components
+- Security misconfigurations
+- Common web server vulnerabilities
+
+## Evidence
+The screenshot and nikto.txt file contain the output generated during the scan.
+
+## Conclusion
+This lab demonstrates how Nikto can be used during the vulnerability assessment phase of a penetration test.
