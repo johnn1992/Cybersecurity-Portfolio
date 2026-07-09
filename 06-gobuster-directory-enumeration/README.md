@@ -26,3 +26,18 @@ gobuster dir -u http://192.168.254.128 -w /usr/share/seclists/Discovery/Web-Cont
 .htpasswd            (Status: 403) [Size: 297]
 ...
 twiki                (Status: 301) [--> http://192.168.254.128/twiki/])
+## Evidence
+
+### Gobuster Scan Screenshot
+
+![Gobuster Scan Screenshot](./Screenshot%202026-07-09%20122235.png)
+
+### Gobuster Results File
+
+The complete scan output is available here:
+
+[gobuster-results.txt](.htaccess            (Status: 403) [Size: 297]
+.hta                 (Status: 403) [Size: 292]
+.htpasswd            (Status: 403) [Size: 297]
+...
+twiki                (Status: 301) [--> http://192.168.254.128/twiki/])
