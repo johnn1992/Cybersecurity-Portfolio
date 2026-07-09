@@ -30,7 +30,7 @@ twiki                (Status: 301) [--> http://192.168.254.128/twiki/])
 
 ### Gobuster Scan Screenshot
 
-![Gobuster Scan Screenshot](./Screenshot%202026-07-09%20122235.png)
+![Gobuster Scan Screenshot](gobuster-scan.png.png)
 
 ### Gobuster Results File
 
