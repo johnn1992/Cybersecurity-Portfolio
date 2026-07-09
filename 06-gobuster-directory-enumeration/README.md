@@ -21,3 +21,8 @@ The objective of this lab was to perform web directory enumeration against a Met
 
 ```bash
 gobuster dir -u http://192.168.254.128 -w /usr/share/seclists/Discovery/Web-Content/common.txt
+[gobuster-results.txt](.htaccess            (Status: 403) [Size: 297]
+.hta                 (Status: 403) [Size: 292]
+.htpasswd            (Status: 403) [Size: 297]
+...
+twiki                (Status: 301) [--> http://192.168.254.128/twiki/])
