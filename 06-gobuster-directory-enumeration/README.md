@@ -21,23 +21,3 @@ The objective of this lab was to perform web directory enumeration against a Met
 
 ```bash
 gobuster dir -u http://192.168.254.128 -w /usr/share/seclists/Discovery/Web-Content/common.txt
-[gobuster-results.txt](.htaccess            (Status: 403) [Size: 297]
-.hta                 (Status: 403) [Size: 292]
-.htpasswd            (Status: 403) [Size: 297]
-...
-twiki                (Status: 301) [--> http://192.168.254.128/twiki/])
-## Evidence
-
-### Gobuster Scan Screenshot
-
-![Gobuster Scan Screenshot](https://github.com/johnn1992/Cybersecurity-Portfolio/raw/main/06-gobuster-directory-enumeration/gobuster-scan.png)
-
-### Gobuster Results File
-
-The complete scan output is available here:
-
-[gobuster-results.txt](.htaccess            (Status: 403) [Size: 297]
-.hta                 (Status: 403) [Size: 292]
-.htpasswd            (Status: 403) [Size: 297]
-...
-twiki                (Status: 301) [--> http://192.168.254.128/twiki/])
