@@ -30,7 +30,7 @@ twiki                (Status: 301) [--> http://192.168.254.128/twiki/])
 
 ### Gobuster Scan Screenshot
 
-![Gobuster Scan Screenshot](./gobuster-scan.png)
+![Gobuster Scan Screenshot](https://github.com/johnn1992/Cybersecurity-Portfolio/raw/main/06-gobuster-directory-enumeration/gobuster-scan.png)
 
 ### Gobuster Results File
 
