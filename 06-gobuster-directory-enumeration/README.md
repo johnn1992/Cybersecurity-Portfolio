@@ -20,4 +20,7 @@ The objective of this lab was to perform web directory enumeration against a Met
 ## Command Used
 
 ```bash
-gobuster dir -u http://192.168.254.128 -w /usr/share/seclists/Discovery/Web-Content/common.txt
+gobuster dir -u http://192.168.254.128 -w /usr/share/seclists/Discovery/Web-Content/common.txt```markdown
+## Evidence
+
+![Gobuster Scan Screenshot](gobuster-scan.png)
