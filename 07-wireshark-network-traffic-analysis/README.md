@@ -21,3 +21,19 @@
 * The `tls` display filter identified **906** TLS packets.
 * Observed key TLS handshake messages, including **Client Hello**, **Server Hello**, **Certificate**, and **Application Data**.
 * Verified that TLS encrypts communication between the client and the server, helping protect transmitted data from unauthorized access.
+## Screenshots
+
+### Full Packet Capture
+![Full Capture](screenshots/screenshots/Full%20capture.png)
+
+### DNS Analysis
+![DNS Capture](screenshots/screenshots/DNS%20Capture.png)
+
+### TCP Handshake
+![TCP Handshake](screenshots/screenshots/TCP%20Handshake.png)
+
+### TLS Filter
+![TLS Filter](screenshots/screenshots/TLS%20Filter.png)
+
+### TLS Packet Details
+![TLS Packet Details](screenshots/screenshots/TLS%20packet%20details.png)
