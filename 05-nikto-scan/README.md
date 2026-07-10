@@ -41,30 +41,14 @@ The scan revealed several common web server misconfigurations and information di
 
 ## Evidence
 
-### Nikto Scan Screenshot
+### Initial Nikto Scan
 
-![Nikto Scan](nikto-scan.png)
+![Initial Nikto Scan](Screenshot%202026-07-07%20153129.png)
+
+### Nikto Findings
+
+![Nikto Findings](Screenshot%202026-07-07%20153151.png)
 
 ### Scan Results File
 
 [nikto_scan.txt](nikto_scan.txt)
-
-```
-
-## Key Findings
-
-
-
-## Security Observations
-
-
-
-## Evidence
-
-### Nikto Scan Screenshot
-
-*(We'll add the image here in a moment.)*
-
-### Scan Results File
-
-*(We'll link the text file in a moment.)*
