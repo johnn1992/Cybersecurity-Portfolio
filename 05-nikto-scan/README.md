@@ -10,9 +10,9 @@ The objective of this lab was to perform a web server vulnerability scan using N
 - Kali Linux
 - Metasploitable 2
 
-## Target Information
+## ## Target Information
 
-- Target IP:
+- Target IP: 192.168.254.128
 - Protocol: HTTP
 - Port: 80/tcp
 
