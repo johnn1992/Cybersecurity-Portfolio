@@ -40,7 +40,7 @@ Directory enumeration helps identify hidden resources on web servers. Exposed di
 
 ### Gobuster Scan Screenshot
 
-![Gobuster Scan Screenshot](./gobuster-scan.png)
+![Gobuster Scan Screenshot](gobuster-scan.png)
 
 ### Gobuster Results File
 
