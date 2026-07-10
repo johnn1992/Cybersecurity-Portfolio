@@ -24,16 +24,16 @@
 ## Screenshots
 
 ### Full Packet Capture
-![Full Capture](screenshots/Full%20capture.png)
+![Full Capture](screenshots/full-capture.png)
 
 ### DNS Analysis
-![DNS Capture](screenshots/DNS%20Capture.png)
+![DNS Capture](screenshots/dns-capture.png)
 
 ### TCP Handshake
-![TCP Handshake](screenshots/TCP%20Handshake.png)
+![TCP Handshake](screenshots/tcp-handshake.png)
 
 ### TLS Filter
-![TLS Filter](screenshots/TLS%20Filter.png)
+![TLS Filter](screenshots/tls-filter.png)
 
 ### TLS Packet Details
-![TLS Packet Details](screenshots/TLS%20packet%20details.png)
+![TLS Packet Details](screenshots/tls-packet-details.png)
