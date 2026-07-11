@@ -39,10 +39,7 @@ IP Address	Failed Attempts
 203.0.113.50	1
 
 ## Screenshots
-
-## Screenshot
-
-![Splunk Failed Login Results](images/splunk_failed_login_results.png)
+![Splunk Failed Login Results](splunk_failed_login_results.png)
 
 ## Analysis
 
