@@ -32,16 +32,24 @@ FAILED login
 
 ## Results
 
-*Results will be added after running the SPL query.*
+*The SPL query returned the following failed login attempts:
+
+IP Address	Failed Attempts
+185.22.45.10	2
+203.0.113.50	1
 
 ## Screenshots
 
-*Screenshots of the imported log and search results will be added here.*
+## Screenshot
+
+![Splunk Failed Login Results](images/splunk_failed_login_results.png)
 
 ## Analysis
 
-*Analysis of the search results will be added here.*
+The SPL query identified failed login attempts from two different IP addresses. The IP address 185.22.45.10 recorded 2 failed login attempts, making it the most suspicious source in the dataset. The IP address 203.0.113.50 recorded 1 failed login attempt.
+
+Using the stats command made it easy to aggregate the events by IP address and quickly identify systems that may require further investigation.
 
 ## Conclusion
 
-*The conclusion will be added after completing the analysis.*
+This lab demonstrated how Splunk can be used to import log data, search for failed login events, and summarize the results using SPL. The analysis successfully identified the IP addresses responsible for failed login attempts, showing how Splunk supports efficient log analysis and basic security monitoring.
