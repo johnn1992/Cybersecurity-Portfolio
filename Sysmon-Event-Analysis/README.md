@@ -14,7 +14,8 @@ Screenshot:
 Event ID 5 records when a process ends. It helps analysts track the lifecycle of processes running on a system.
 
 Screenshot:
-sysmon_event_id_5_process_terminated.png
+
+![Sysmon Event ID 5](sysmon_event_id_5_process_terminated.png)
 
 ## Conclusion
 Sysmon events are useful for threat detection, incident response, and investigating suspicious activity on Windows systems.
