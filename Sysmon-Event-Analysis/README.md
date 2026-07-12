@@ -8,7 +8,7 @@ Event ID 1 records when a new process starts. It shows information such as the p
 
 Screenshot:
 
-![Sysmon Event ID 1](sysmon_event_id_1_process_creation.png)
+![Sysmon Event ID 1](sysmon_event_id_1_process_creation_details.png)
 
 ## Event ID 5 - Process Terminated
 Event ID 5 records when a process ends. It helps analysts track the lifecycle of processes running on a system.
