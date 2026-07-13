@@ -14,13 +14,55 @@ Welcome to my cybersecurity portfolio. This repository documents my hands-on pra
 ## Projects
 
 ### 🔍 Nmap Network Scanning Labs
-**Tools:** Nmap, Kali Linux
+**Tool:** Nmap
 
-Completed practical exercises covering:
-- Basic host discovery
-- Service and version detection
-- Aggressive scanning
-- Network enumeration techniques
+Covered:
+- Host discovery
+- Port scanning
+- Service/version detection
+- Network enumeration
+
+---
+
+### 🌐 Burp Suite Web Security Lab
+**Tool:** Burp Suite Community Edition
+
+Covered:
+- HTTP request interception
+- HTTP history analysis
+- Burp Repeater testing
+- Request modification
+- Web traffic analysis
+
+---
+
+### 🕵️ Nikto Web Vulnerability Scanning Lab
+**Tool:** Nikto
+
+Covered:
+- Web server scanning
+- Security misconfiguration detection
+- Vulnerability identification
+
+---
+
+### 📂 Gobuster Directory Enumeration Lab
+**Tool:** Gobuster
+
+Covered:
+- Directory and file enumeration
+- Web content discovery
+- Reconnaissance techniques
+
+---
+
+### 📡 Wireshark Network Traffic Analysis Lab
+**Tool:** Wireshark
+
+Covered:
+- Packet capture analysis
+- Protocol inspection
+- Network traffic investigation
 
 ---
 
@@ -28,10 +70,19 @@ Completed practical exercises covering:
 **Tools:** Sysmon, Windows Event Viewer
 
 Covered:
-- Installing and configuring Sysmon
-- Monitoring Windows events
-- Reviewing process creation events
-- Analyzing security logs
+- Windows event monitoring
+- Process activity analysis
+- Security log investigation
+
+---
+
+### 📊 Splunk SIEM Log Analysis Lab
+**Tool:** Splunk
+
+Covered:
+- Log searching
+- Event investigation
+- Security monitoring fundamentals
 
 ---
 
@@ -39,18 +90,9 @@ Covered:
 **Tool:** Autopsy 4.23.1
 
 Covered:
-- Creating forensic cases
-- Adding evidence sources
-- Analyzing disk volumes
-- Reviewing extracted files
-- Generating forensic reports
-
-## Environment
-
-- Kali Linux
-- Windows 11
-- VMware Workstation
-- GitHub
+- Evidence source analysis
+- File system examination
+- Digital forensic reporting
 
 ## Goal
 
