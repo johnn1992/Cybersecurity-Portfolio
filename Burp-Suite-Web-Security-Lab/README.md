@@ -32,7 +32,20 @@ This lab demonstrates the use of Burp Suite Community Edition for basic web appl
 
 ## Screenshots
 
-Screenshots of the testing process are included in this folder.
+### Burp Proxy - Intercepted Request
+![Burp Intercepted Request](01-burp-intercepted-request.png)
+
+### HTTP History
+![Burp HTTP History](02-burp-http-history.png)
+
+### Burp Repeater Request
+![Burp Repeater Request](03-burp-repeater-request.png)
+
+### Burp Repeater Response
+![Burp Repeater Response](04-burp-repeater-response.png)
+
+### Modified Request Testing
+![Burp Modified Request](05-burp-modified-request.png)
 
 ## Conclusion
 
