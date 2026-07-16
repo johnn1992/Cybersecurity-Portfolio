@@ -1,6 +1,6 @@
 # Cybersecurity Portfolio
 
-Welcome to my cybersecurity portfolio. This repository showcases my hands-on cybersecurity labs and technical projects completed in a controlled virtual lab environment. The projects demonstrate practical experience in network security, vulnerability assessment, web application security, security monitoring, log analysis, and digital forensics.
+Welcome to my cybersecurity portfolio. This repository showcases my hands-on cybersecurity labs and technical projects completed in a controlled virtual lab environment. The projects demonstrate practical experience in network security, vulnerability assessment, web application security, penetration testing, security monitoring, log analysis, and digital forensics.
 
 ## Skills & Areas Covered
 
@@ -48,7 +48,23 @@ Welcome to my cybersecurity portfolio. This repository showcases my hands-on cyb
 * Security reporting
 
 ---
+### ⚡ OWASP ZAP Web Application Security Assessment
 
+**Tool:** OWASP ZAP 2.17.0
+
+**Covered:**
+
+* Automated web application security scanning
+* Spidering and application discovery
+* Passive vulnerability assessment
+* Active vulnerability testing
+* Cross-Site Scripting (XSS) detection
+* SQL Injection detection
+* CSRF vulnerability identification
+* Security header analysis
+* Professional security report generation
+
+---
 ### 🌐 Burp Suite Web Security Lab
 
 **Tool:** Burp Suite Community Edition
@@ -139,10 +155,10 @@ Welcome to my cybersecurity portfolio. This repository showcases my hands-on cyb
 
 ## Current Portfolio Statistics
 
-* **Projects Completed:** 9
+* **Projects Completed:** 10
 * **Primary Operating Systems:** Windows 11, Kali Linux
 * **Primary Virtualization Platform:** VMware Workstation
-* **Primary Security Tools:** Nmap, Nessus, Burp Suite, Nikto, Gobuster, Wireshark, Splunk, Sysmon, Autopsy
+* **Primary Security Tools:** Nmap, Nessus, OWASP ZAP, Burp Suite, Nikto, Gobuster, Wireshark, Splunk, Sysmon, Autopsy
 
 ## Goal
 
