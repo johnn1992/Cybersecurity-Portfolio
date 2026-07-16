@@ -154,25 +154,27 @@ Example payload:
 
 ### Completed Scan Results
 
-![Completed Scan](screenshots/zap_scan_complete.png)
+![Completed Scan](zap_scan_complete.png)
 
 ---
 
 ### Reflected Cross-Site Scripting (XSS)
 
-![Reflected XSS](screenshots/xss_reflected_alert.png)
+![Reflected XSS](xss_reflected_alert.png)
 
 ---
 
 ### SQL Injection Detection
 
-![SQL Injection](screenshots/sql_injection_alert.png)
+![SQL Injection](sql_injection_alert.png)
 
 ---
 
 ### Generated HTML Report
 
-![Generated Report](screenshots/report_generated.png)
+![Generated Report](report_generated.png)
+
+
 
 
 
