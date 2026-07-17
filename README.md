@@ -12,13 +12,15 @@ Welcome to my cybersecurity portfolio. This repository showcases my hands-on cyb
 * Digital Forensics
 * Incident Response Fundamentals
 * Network Traffic Analysis
+* Operating System Fingerprinting
+* Mobile Device Security Assessment
 
 ## Lab Environment
 
 * **Host Operating System:** Windows 11
 * **Virtualization:** VMware Workstation
 * **Security Distribution:** Kali Linux
-* **Target Systems:** Metasploitable 2 and other intentionally vulnerable lab environments
+* **Target Systems:** Metasploitable 2, Android devices, and other intentionally vulnerable lab environments
 
 ## Projects
 
@@ -48,6 +50,22 @@ Welcome to my cybersecurity portfolio. This repository showcases my hands-on cyb
 * Security reporting
 
 ---
+
+### 📱 Android Vulnerability Assessment (Nessus)
+
+**Tool:** Nessus Essentials
+
+**Covered:**
+
+* Android device vulnerability assessment
+* Network service discovery
+* Operating system fingerprinting
+* Vulnerability identification
+* Security risk analysis
+* Vulnerability reporting
+
+---
+
 ### ⚡ OWASP ZAP Web Application Security Assessment
 
 **Tool:** OWASP ZAP 2.17.0
@@ -65,6 +83,7 @@ Welcome to my cybersecurity portfolio. This repository showcases my hands-on cyb
 * Professional security report generation
 
 ---
+
 ### 🌐 Burp Suite Web Security Lab
 
 **Tool:** Burp Suite Community Edition
@@ -155,12 +174,11 @@ Welcome to my cybersecurity portfolio. This repository showcases my hands-on cyb
 
 ## Current Portfolio Statistics
 
-* **Projects Completed:** 10
-* **Primary Operating Systems:** Windows 11, Kali Linux
+* **Projects Completed:** 11
+* **Primary Operating Systems:** Windows 11, Kali Linux, Android
 * **Primary Virtualization Platform:** VMware Workstation
 * **Primary Security Tools:** Nmap, Nessus, OWASP ZAP, Burp Suite, Nikto, Gobuster, Wireshark, Splunk, Sysmon, Autopsy
 
 ## Goal
 
 To continuously develop practical cybersecurity skills through hands-on labs and security projects while building a professional portfolio that demonstrates technical knowledge, problem-solving ability, and industry-relevant experience.
-
