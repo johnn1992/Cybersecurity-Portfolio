@@ -2,37 +2,37 @@
 
 ## Project Overview
 
-This project demonstrates the use of Splunk Enterprise as a Security Information and Event Management (SIEM) platform to analyze Windows security logs and investigate authentication activity.
+This project demonstrates the use of Splunk Enterprise as a Security Information and Event Management (SIEM) platform to analyze Windows security events and investigate authentication activity.
 
-The project focuses on detecting failed login attempts, monitoring successful logons, analyzing privileged access events, identifying user activity patterns, and creating visual security dashboards.
+The goal of this project was to simulate a SOC analyst workflow by collecting, searching, analyzing, and visualizing security logs to identify suspicious login activity, monitor user behavior, and understand security event patterns.
 
-This project improves on my previous Splunk lab by using automated log ingestion instead of manually importing log files.
+Unlike my previous Splunk project where logs were manually imported, this project focuses on automated log ingestion and real-world SIEM investigation processes.
 
 ---
 
-## Objectives
+# Objectives
 
-* Configure Splunk Enterprise for security log analysis
+* Configure Splunk Enterprise for security event analysis
 * Analyze Windows Security Event Logs using SPL queries
-* Investigate authentication activity
-* Detect failed login attempts
-* Monitor privileged account usage
-* Identify user activity patterns
+* Investigate failed and successful authentication attempts
+* Identify privileged account activity
+* Analyze user behavior patterns
 * Create security visualizations and dashboards
+* Practice SOC analyst investigation techniques
 
 ---
 
-## Tools & Technologies
+# Tools & Technologies Used
 
 * Splunk Enterprise
 * SPL (Search Processing Language)
 * Windows Security Event Logs
 * Windows Event Viewer
-* Splunk Dashboards
+* Splunk Dashboard Visualizations
 
 ---
 
-## Lab Environment
+# Lab Environment
 
 **Operating System**
 
@@ -48,12 +48,12 @@ This project improves on my previous Splunk lab by using automated log ingestion
 
 ---
 
-# Security Investigations
+# Investigations Performed
 
 ## 1. Failed Logon Attempts
 
 **Objective:**
-Identify unsuccessful authentication attempts and analyze possible brute-force activity.
+Identify unsuccessful authentication attempts and investigate possible brute-force activity.
 
 ### SPL Query
 
@@ -65,18 +65,18 @@ index=* EventCode=4625
 
 ### Investigation Results
 
-![Failed Logon Attempts](./screenshots/01-failed-logon-attempts.png)
+![Failed Logon Attempts](./01-failed-logon-attempts.png)
 
 ### Visualization
 
-![Failed Logon Chart](./screenshots/01-failed-logon-chart.png)
+![Failed Logon Chart](./01-failed-logon-chart.png)
 
 ---
 
-## 2. Successful Logons
+# 2. Successful Logons
 
 **Objective:**
-Analyze successful authentication events and identify normal account access activity.
+Analyze successful authentication events and identify account access activity.
 
 ### SPL Query
 
@@ -88,18 +88,18 @@ index=* EventCode=4624
 
 ### Investigation Results
 
-![Successful Logons](./screenshots/02-successful-logons.png)
+![Successful Logons](./02-successful-logons.png)
 
 ### Visualization
 
-![Successful Logons Chart](./screenshots/02-successful-logons-chart.png)
+![Successful Logons Chart](./02-successful-logons-chart.png)
 
 ---
 
-## 3. Privilege Logon Events
+# 3. Privilege Logon Events
 
 **Objective:**
-Identify privileged account logon events that require monitoring.
+Identify privileged account logon activity that may require additional monitoring.
 
 ### SPL Query
 
@@ -111,18 +111,18 @@ index=* EventCode=4672
 
 ### Investigation Results
 
-![Privilege Logon Events](./screenshots/03-privilege-logon-events.png)
+![Privilege Logon Events](./03-privilege-logon-events.png)
 
 ### Visualization
 
-![Privilege Logon Events Chart](./screenshots/03-privilege-logon-events-chart.png)
+![Privilege Logon Events Chart](./03-privilege-logon-events-chart.png)
 
 ---
 
-## 4. Event Type Analysis
+# 4. Event Type Analysis
 
 **Objective:**
-Analyze the distribution of Windows security events.
+Analyze the distribution of Windows security events within the environment.
 
 ### SPL Query
 
@@ -134,18 +134,18 @@ index=*
 
 ### Investigation Results
 
-![Event Type Analysis](./screenshots/04-event-type-analysis.png)
+![Event Type Analysis](./04-event-type-analysis.png)
 
 ### Visualization
 
-![Event Type Analysis Chart](./screenshots/04-event-type-analysis-chart.png)
+![Event Type Analysis Chart](./04-event-type-analysis-chart.png)
 
 ---
 
-## 5. Top User Activity Analysis
+# 5. Top User Activity Analysis
 
 **Objective:**
-Identify accounts generating the highest number of security events.
+Identify users generating the highest number of security events.
 
 ### SPL Query
 
@@ -157,18 +157,18 @@ index=*
 
 ### Investigation Results
 
-![Top User Activity Analysis](./screenshots/05-top-user-activity-analysis.png)
+![Top User Activity Analysis](./05-top-user-activity-analysis.png)
 
 ### Visualization
 
-![Top User Activity Chart](./screenshots/05-top-user-activity-chart.png)
+![Top User Activity Chart](./05-top-user-activity-chart.png)
 
 ---
 
-## 6. Security Event Activity Timeline
+# 6. Security Event Activity Timeline
 
 **Objective:**
-Analyze security events over time to identify activity patterns.
+Analyze security events over time to identify activity patterns and unusual behavior.
 
 ### SPL Query
 
@@ -179,48 +179,51 @@ index=*
 
 ### Investigation Results
 
-![Security Event Activity Timeline](./screenshots/06-security-event-activity-timeline.png)
+![Security Event Activity Timeline](./06-security-event-activity-timeline.png)
 
 ### Visualization
 
-![Security Event Timeline Chart](./screenshots/06-security-event-timeline-chart.png)
+![Security Event Timeline Chart](./06-security-event-timeline-chart.png)
 
 ---
 
 # Splunk Dashboard
 
-A Splunk dashboard was created to provide a centralized view of security events.
+A Splunk dashboard was created to provide a centralized view of authentication activity and security events.
 
 The dashboard includes:
 
-* Failed authentication attempts
+* Failed login attempts
 * Successful logons
 * Privileged logon events
-* Event type distribution
+* Event type analysis
 * User activity analysis
 * Security event timeline
+
+The dashboard provides a visual overview that can assist SOC analysts with faster investigation and monitoring.
 
 ---
 
 # Key Findings
 
 * Detected failed authentication attempts using Windows Event ID 4625
-* Reviewed successful logon activity using Event ID 4624
-* Investigated privileged access events using Event ID 4672
-* Identified user activity trends through SPL analysis
-* Created visualizations for SOC monitoring and reporting
+* Reviewed successful authentication activity using Windows Event ID 4624
+* Investigated privileged access activity using Windows Event ID 4672
+* Identified user activity trends through SPL queries
+* Created visual reports for security monitoring
+* Practiced SIEM-based investigation workflow
 
 ---
 
 # Skills Demonstrated
 
 * Splunk Enterprise
-* SPL Query Development
+* SPL Query Writing
 * SIEM Monitoring
 * Windows Event Log Analysis
 * Authentication Investigation
 * Security Dashboard Creation
-* SOC Analyst Workflow
+* SOC Analyst Investigation Process
 
 ---
 
@@ -236,6 +239,8 @@ The dashboard includes:
 
 # Conclusion
 
-This project demonstrates practical SIEM investigation skills by using Splunk Enterprise to collect, analyze, and visualize Windows security events.
+This project demonstrates practical SIEM investigation skills using Splunk Enterprise to analyze Windows security events.
 
-The workflow represents common SOC analyst activities including authentication monitoring, event investigation, threat detection, and security reporting.
+The investigation process reflects real SOC analyst responsibilities, including authentication monitoring, event correlation, threat detection, log analysis, and security reporting.
+
+By completing this project, I gained hands-on experience with Splunk searches, dashboards, and security event investigation workflows.
