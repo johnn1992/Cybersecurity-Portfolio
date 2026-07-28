@@ -187,20 +187,20 @@ index=*
 
 ---
 
-# Splunk Dashboard
+# # Splunk Dashboard
 
-A Splunk dashboard was created to provide a centralized view of authentication activity and security events.
+A centralized Splunk dashboard was created to provide an overview of authentication activity and security events.
 
 The dashboard includes:
 
-* Failed login attempts
-* Successful logons
-* Privileged logon events
-* Event type analysis
-* User activity analysis
-* Security event timeline
+- Failed login attempts
+- Successful logons
+- Privileged logon events
+- Event type analysis
+- Top user activity
+- Security event timeline
 
-The dashboard provides a visual overview that can assist SOC analysts with faster investigation and monitoring.
+![Splunk Dashboard](./07-splunk-dashboard.png)
 
 ---
 
