@@ -2,55 +2,58 @@
 
 ## Project Overview
 
-This project demonstrates the use of Splunk Enterprise for Security Information and Event Management (SIEM) analysis by investigating Windows security events through automated log ingestion.
+This project demonstrates the use of Splunk Enterprise as a Security Information and Event Management (SIEM) platform to analyze Windows security logs and investigate authentication activity.
 
-The objective was to analyze authentication activities, identify suspicious login behavior, monitor user activities, and visualize security events using Splunk dashboards.
+The project focuses on detecting failed login attempts, monitoring successful logons, analyzing privileged access events, identifying user activity patterns, and creating visual security dashboards.
 
-Unlike my previous Splunk project where logs were manually imported, this project focuses on automated log ingestion and real-world SIEM workflow.
+This project improves on my previous Splunk lab by using automated log ingestion instead of manually importing log files.
 
 ---
 
 ## Objectives
 
-- Configure Splunk Enterprise for log monitoring
-- Analyze Windows Security Event Logs using SPL queries
-- Investigate failed and successful authentication attempts
-- Identify privilege logon events
-- Analyze user activity patterns
-- Visualize security events using Splunk charts and dashboards
-- Practice SOC analyst investigation techniques
+* Configure Splunk Enterprise for security log analysis
+* Analyze Windows Security Event Logs using SPL queries
+* Investigate authentication activity
+* Detect failed login attempts
+* Monitor privileged account usage
+* Identify user activity patterns
+* Create security visualizations and dashboards
 
 ---
 
-## Tools & Technologies Used
+## Tools & Technologies
 
-- Splunk Enterprise
-- SPL (Search Processing Language)
-- Windows Security Event Logs
-- Windows Event Viewer
-- Splunk Dashboard Visualization
+* Splunk Enterprise
+* SPL (Search Processing Language)
+* Windows Security Event Logs
+* Windows Event Viewer
+* Splunk Dashboards
 
 ---
 
 ## Lab Environment
 
-**Operating System:**
-- Windows 11
+**Operating System**
 
-**SIEM Platform:**
-- Splunk Enterprise
+* Windows 11
 
-**Log Source:**
-- Windows Security Event Logs
+**SIEM Platform**
+
+* Splunk Enterprise
+
+**Log Source**
+
+* Windows Security Event Logs
 
 ---
 
-# Investigations Performed
+# Security Investigations
 
 ## 1. Failed Logon Attempts
 
 **Objective:**
-Identify unsuccessful authentication attempts and analyze potential brute-force activity.
+Identify unsuccessful authentication attempts and analyze possible brute-force activity.
 
 ### SPL Query
 
@@ -60,20 +63,20 @@ index=* EventCode=4625
 | sort -count
 ```
 
-### Results
+### Investigation Results
 
-![Failed Logon Attempts](screenshots/01-failed-logon-attempts.png)
+![Failed Logon Attempts](./screenshots/01-failed-logon-attempts.png)
 
 ### Visualization
 
-![Failed Logon Chart](screenshots/01-failed-logon-chart.png)
+![Failed Logon Chart](./screenshots/01-failed-logon-chart.png)
 
 ---
 
-# 2. Successful Logons
+## 2. Successful Logons
 
 **Objective:**
-Identify successful user authentication events and monitor account access.
+Analyze successful authentication events and identify normal account access activity.
 
 ### SPL Query
 
@@ -83,20 +86,20 @@ index=* EventCode=4624
 | sort -count
 ```
 
-### Results
+### Investigation Results
 
-![Successful Logons](screenshots/02-successful-logons.png)
+![Successful Logons](./screenshots/02-successful-logons.png)
 
 ### Visualization
 
-![Successful Logons Chart](screenshots/02-successful-logons-chart.png)
+![Successful Logons Chart](./screenshots/02-successful-logons-chart.png)
 
 ---
 
-# 3. Privilege Logon Events
+## 3. Privilege Logon Events
 
 **Objective:**
-Detect privileged account logons that may require monitoring.
+Identify privileged account logon events that require monitoring.
 
 ### SPL Query
 
@@ -106,20 +109,20 @@ index=* EventCode=4672
 | sort -count
 ```
 
-### Results
+### Investigation Results
 
-![Privilege Logon Events](screenshots/03-privilege-logon-events.png)
+![Privilege Logon Events](./screenshots/03-privilege-logon-events.png)
 
 ### Visualization
 
-![Privilege Logon Events Chart](screenshots/03-privilege-logon-events-chart.png)
+![Privilege Logon Events Chart](./screenshots/03-privilege-logon-events-chart.png)
 
 ---
 
-# 4. Event Type Analysis
+## 4. Event Type Analysis
 
 **Objective:**
-Understand the distribution of Windows security events within the environment.
+Analyze the distribution of Windows security events.
 
 ### SPL Query
 
@@ -129,20 +132,20 @@ index=*
 | sort -count
 ```
 
-### Results
+### Investigation Results
 
-![Event Type Analysis](screenshots/04-event-type-analysis.png)
+![Event Type Analysis](./screenshots/04-event-type-analysis.png)
 
 ### Visualization
 
-![Event Type Analysis Chart](screenshots/04-event-type-analysis-chart.png)
+![Event Type Analysis Chart](./screenshots/04-event-type-analysis-chart.png)
 
 ---
 
-# 5. Top User Activity Analysis
+## 5. Top User Activity Analysis
 
 **Objective:**
-Identify users generating the highest number of security events.
+Identify accounts generating the highest number of security events.
 
 ### SPL Query
 
@@ -152,20 +155,20 @@ index=*
 | sort -count
 ```
 
-### Results
+### Investigation Results
 
-![Top User Activity Analysis](screenshots/05-top-user-activity-analysis.png)
+![Top User Activity Analysis](./screenshots/05-top-user-activity-analysis.png)
 
 ### Visualization
 
-![Top User Activity Chart](screenshots/05-top-user-activity-chart.png)
+![Top User Activity Chart](./screenshots/05-top-user-activity-chart.png)
 
 ---
 
-# 6. Security Event Activity Timeline
+## 6. Security Event Activity Timeline
 
 **Objective:**
-Analyze security events over time to identify unusual activity patterns.
+Analyze security events over time to identify activity patterns.
 
 ### SPL Query
 
@@ -174,60 +177,60 @@ index=*
 | timechart count by EventCode
 ```
 
-### Results
+### Investigation Results
 
-![Security Event Activity Timeline](screenshots/06-security-event-activity-timeline.png)
+![Security Event Activity Timeline](./screenshots/06-security-event-activity-timeline.png)
 
 ### Visualization
 
-![Security Event Timeline Chart](screenshots/06-security-event-timeline-chart.png)
+![Security Event Timeline Chart](./screenshots/06-security-event-timeline-chart.png)
 
 ---
 
-# Dashboard
+# Splunk Dashboard
 
-A Splunk dashboard was created to provide a centralized view of authentication activity and security events.
+A Splunk dashboard was created to provide a centralized view of security events.
 
 The dashboard includes:
 
-- Failed login attempts
-- Successful login activity
-- Privileged logon events
-- Event type distribution
-- User activity trends
-- Security event timeline
+* Failed authentication attempts
+* Successful logons
+* Privileged logon events
+* Event type distribution
+* User activity analysis
+* Security event timeline
 
 ---
 
 # Key Findings
 
-- Identified failed authentication attempts using Windows Event ID 4625
-- Monitored successful authentication events using Event ID 4624
-- Reviewed privileged logon activity using Event ID 4672
-- Analyzed security event patterns across the environment
-- Created visual dashboards for easier SOC monitoring
+* Detected failed authentication attempts using Windows Event ID 4625
+* Reviewed successful logon activity using Event ID 4624
+* Investigated privileged access events using Event ID 4672
+* Identified user activity trends through SPL analysis
+* Created visualizations for SOC monitoring and reporting
 
 ---
 
 # Skills Demonstrated
 
-- Splunk Enterprise Administration
-- SPL Query Writing
-- SIEM Monitoring
-- Windows Event Log Analysis
-- Authentication Investigation
-- Security Dashboard Creation
-- SOC Analyst Investigation Workflow
+* Splunk Enterprise
+* SPL Query Development
+* SIEM Monitoring
+* Windows Event Log Analysis
+* Authentication Investigation
+* Security Dashboard Creation
+* SOC Analyst Workflow
 
 ---
 
 # MITRE ATT&CK Mapping
 
-| Technique | ID | Description |
-|---|---|---|
-| Valid Accounts | T1078 | Monitoring legitimate account usage |
-| Brute Force | T1110 | Detecting repeated failed login attempts |
-| Account Discovery | T1087 | Reviewing account activity |
+| Technique         | ID    | Description                                       |
+| ----------------- | ----- | ------------------------------------------------- |
+| Valid Accounts    | T1078 | Monitoring legitimate account usage               |
+| Brute Force       | T1110 | Detecting repeated failed authentication attempts |
+| Account Discovery | T1087 | Reviewing account activity                        |
 
 ---
 
@@ -235,4 +238,4 @@ The dashboard includes:
 
 This project demonstrates practical SIEM investigation skills by using Splunk Enterprise to collect, analyze, and visualize Windows security events.
 
-The investigation workflow reflects common SOC analyst responsibilities, including authentication monitoring, threat detection, event analysis, and dashboard reporting.
+The workflow represents common SOC analyst activities including authentication monitoring, event investigation, threat detection, and security reporting.
