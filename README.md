@@ -1,6 +1,6 @@
 # Cybersecurity Portfolio
 
-Welcome to my cybersecurity portfolio. This repository showcases my hands-on cybersecurity labs and technical projects completed in a controlled virtual lab environment. The projects demonstrate practical experience in network security, vulnerability assessment, web application security, penetration testing, security monitoring, log analysis, and digital forensics.
+Welcome to my cybersecurity portfolio. This repository showcases my hands-on cybersecurity labs and technical projects completed in a controlled virtual lab environment. The projects demonstrate practical experience in network security, vulnerability assessment, web application security, penetration testing, security monitoring, log analysis, SIEM operations, and digital forensics.
 
 ## Skills & Areas Covered
 
@@ -13,7 +13,7 @@ Welcome to my cybersecurity portfolio. This repository showcases my hands-on cyb
 * Incident Response Fundamentals
 * Network Traffic Analysis
 * Operating System Fingerprinting
-* Mobile Device Security Assessment
+* Security Event Investigation
 
 ## Lab Environment
 
@@ -149,14 +149,32 @@ Welcome to my cybersecurity portfolio. This repository showcases my hands-on cyb
 
 ### 📊 Splunk SIEM Log Analysis Lab
 
-**Tool:** Splunk
+**Tool:** Splunk Enterprise
 
 **Covered:**
 
-* Log searching
-* Event investigation
-* Security monitoring
 * SIEM fundamentals
+* Log searching and analysis
+* Security event investigation
+* SPL query development
+* Authentication event monitoring
+* Dashboard visualization
+
+---
+
+### 🔐 Splunk Failed Login Analysis
+
+**Tool:** Splunk Enterprise
+
+**Covered:**
+
+* Automated security log ingestion
+* Failed login investigation
+* Successful authentication analysis
+* Privileged logon event analysis
+* User activity monitoring
+* Security event timeline analysis
+* Splunk dashboard creation
 
 ---
 
@@ -174,7 +192,7 @@ Welcome to my cybersecurity portfolio. This repository showcases my hands-on cyb
 
 ## Current Portfolio Statistics
 
-* **Projects Completed:** 11
+* **Projects Completed:** 12
 * **Primary Operating Systems:** Windows 11, Kali Linux, Android
 * **Primary Virtualization Platform:** VMware Workstation
 * **Primary Security Tools:** Nmap, Nessus, OWASP ZAP, Burp Suite, Nikto, Gobuster, Wireshark, Splunk, Sysmon, Autopsy
