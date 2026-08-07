@@ -87,7 +87,7 @@ I enjoy identifying security vulnerabilities, analyzing systems, documenting fin
 GitHub: https://github.com/johnn1992
 
 LinkedIn:
-linkedin.com/in/john-alabi-299447341
+https://www.linkedin.com/in/john-alabi-299447341/
 
 Email:
 johnalabi04@gmail.com
