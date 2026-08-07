@@ -1,202 +1,97 @@
-# Cybersecurity Portfolio
+# John Alabi | Cybersecurity Portfolio
 
-Welcome to my cybersecurity portfolio. This repository showcases my hands-on cybersecurity labs and technical projects completed in a controlled virtual lab environment. The projects demonstrate practical experience in network security, vulnerability assessment, web application security, penetration testing, security monitoring, log analysis, SIEM operations, and digital forensics.
-
-## Skills & Areas Covered
-
-* Vulnerability Assessment
-* Network Scanning & Enumeration
-* Web Application Security Testing
-* Security Monitoring
-* SIEM & Log Analysis
-* Digital Forensics
-* Incident Response Fundamentals
-* Network Traffic Analysis
-* Operating System Fingerprinting
-* Security Event Investigation
-
-## Lab Environment
-
-* **Host Operating System:** Windows 11
-* **Virtualization:** VMware Workstation
-* **Security Distribution:** Kali Linux
-* **Target Systems:** Metasploitable 2, Android devices, and other intentionally vulnerable lab environments
-
-## Projects
-
-### 🔍 Nmap Network Scanning Labs
-
-**Tool:** Nmap
-
-**Covered:**
-
-* Host discovery
-* Port scanning
-* Service and version detection
-* Network enumeration
+Welcome to my cybersecurity portfolio. This repository serves as the central hub for my hands-on cybersecurity projects, demonstrating practical skills in penetration testing, vulnerability assessment, network security, security monitoring, and digital forensics.
 
 ---
 
-### 🛡️ Nessus Vulnerability Assessment
+# About Me
 
-**Tool:** Nessus Essentials
+I am an aspiring Cybersecurity Analyst and Penetration Tester with hands-on experience using industry-standard security tools in virtual lab environments.
 
-**Covered:**
-
-* Vulnerability scanning
-* Risk classification
-* Critical, High, Medium, Low, and Informational findings
-* Vulnerability remediation planning
-* Security reporting
+I enjoy identifying security vulnerabilities, analyzing systems, documenting findings, and continuously improving my technical skills through practical projects.
 
 ---
 
-### 📱 Android Vulnerability Assessment (Nessus)
+# Technical Skills
 
-**Tool:** Nessus Essentials
+## Penetration Testing
 
-**Covered:**
+- Nmap
+- Nikto
+- Gobuster
+- Burp Suite
+- OWASP ZAP
 
-* Android device vulnerability assessment
-* Network service discovery
-* Operating system fingerprinting
-* Vulnerability identification
-* Security risk analysis
-* Vulnerability reporting
+## Vulnerability Assessment
 
----
+- Tenable Nessus
 
-### ⚡ OWASP ZAP Web Application Security Assessment
+## Security Monitoring
 
-**Tool:** OWASP ZAP 2.17.0
+- Splunk Enterprise
+- Sysmon
 
-**Covered:**
+## Network Analysis
 
-* Automated web application security scanning
-* Spidering and application discovery
-* Passive vulnerability assessment
-* Active vulnerability testing
-* Cross-Site Scripting (XSS) detection
-* SQL Injection detection
-* CSRF vulnerability identification
-* Security header analysis
-* Professional security report generation
+- Wireshark
 
----
+## Digital Forensics
 
-### 🌐 Burp Suite Web Security Lab
+- Autopsy
 
-**Tool:** Burp Suite Community Edition
+## Operating Systems
 
-**Covered:**
-
-* HTTP request interception
-* HTTP history analysis
-* Burp Repeater testing
-* Request modification
-* Web traffic analysis
+- Kali Linux
+- Windows 11
+- Metasploitable 2
 
 ---
 
-### 🕵️ Nikto Web Vulnerability Scanning Lab
+# Portfolio Projects
 
-**Tool:** Nikto
-
-**Covered:**
-
-* Web server scanning
-* Security misconfiguration detection
-* Vulnerability identification
-
----
-
-### 📂 Gobuster Directory Enumeration Lab
-
-**Tool:** Gobuster
-
-**Covered:**
-
-* Directory and file enumeration
-* Web content discovery
-* Web reconnaissance
+| Project | Description |
+|---------|-------------|
+| Nmap Lab | Network reconnaissance and service enumeration |
+| Nikto Web Vulnerability Scan | Web server vulnerability assessment |
+| Gobuster Directory Enumeration | Hidden directory and file discovery |
+| Wireshark Network Traffic Analysis | Packet capture and protocol analysis |
+| Burp Suite Web Security Lab | Web application security testing |
+| OWASP ZAP Web Security Assessment | Automated web vulnerability assessment |
+| Nessus Vulnerability Assessment | Infrastructure vulnerability scanning |
+| Android Vulnerability Assessment | Android security assessment using Nessus |
+| Splunk Windows Security Monitoring | Windows event monitoring and analysis |
+| Splunk Failed Login Analysis | Detection of failed Windows logon attempts |
+| Sysmon Event Analysis | Endpoint monitoring and event analysis |
+| Autopsy Digital Forensics | Digital forensic investigation |
 
 ---
 
-### 📡 Wireshark Network Traffic Analysis Lab
+# Certifications
 
-**Tool:** Wireshark
-
-**Covered:**
-
-* Packet capture analysis
-* Protocol inspection
-* TCP/IP analysis
-* Network traffic investigation
+- Diploma in Cybersecurity & Ethical Hacking
+- Cisco Networking Academy Certificates
 
 ---
 
-### 🖥️ Sysmon Monitoring Lab
+# Currently Learning
 
-**Tools:** Sysmon, Windows Event Viewer
-
-**Covered:**
-
-* Windows event monitoring
-* Process activity analysis
-* Security log investigation
+- Advanced Threat Detection
+- Bug Bounty Hunting
+- Active Directory Security
+- Malware Analysis
 
 ---
 
-### 📊 Splunk SIEM Log Analysis Lab
+# Contact
 
-**Tool:** Splunk Enterprise
+GitHub: https://github.com/johnn1992
 
-**Covered:**
+LinkedIn:
+linkedin.com/in/john-alabi-299447341
 
-* SIEM fundamentals
-* Log searching and analysis
-* Security event investigation
-* SPL query development
-* Authentication event monitoring
-* Dashboard visualization
+Email:
+johnalabi04@gmail.com
 
 ---
 
-### 🔐 Splunk Failed Login Analysis
-
-**Tool:** Splunk Enterprise
-
-**Covered:**
-
-* Automated security log ingestion
-* Failed login investigation
-* Successful authentication analysis
-* Privileged logon event analysis
-* User activity monitoring
-* Security event timeline analysis
-* Splunk dashboard creation
-
----
-
-### 🔎 Autopsy Digital Forensics Lab
-
-**Tool:** Autopsy 4.23.1
-
-**Covered:**
-
-* Evidence source analysis
-* File system examination
-* Digital forensic reporting
-
----
-
-## Current Portfolio Statistics
-
-* **Projects Completed:** 12
-* **Primary Operating Systems:** Windows 11, Kali Linux, Android
-* **Primary Virtualization Platform:** VMware Workstation
-* **Primary Security Tools:** Nmap, Nessus, OWASP ZAP, Burp Suite, Nikto, Gobuster, Wireshark, Splunk, Sysmon, Autopsy
-
-## Goal
-
-To continuously develop practical cybersecurity skills through hands-on labs and security projects while building a professional portfolio that demonstrates technical knowledge, problem-solving ability, and industry-relevant experience.
+Thank you for visiting my portfolio.
