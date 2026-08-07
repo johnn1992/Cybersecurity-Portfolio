@@ -49,20 +49,33 @@ I enjoy identifying security vulnerabilities, analyzing systems, documenting fin
 
 # Portfolio Projects
 
-| Project | Description |
-|---------|-------------|
-| Nmap Lab | Network reconnaissance and service enumeration |
-| Nikto Web Vulnerability Scan | Web server vulnerability assessment |
-| Gobuster Directory Enumeration | Hidden directory and file discovery |
-| Wireshark Network Traffic Analysis | Packet capture and protocol analysis |
-| Burp Suite Web Security Lab | Web application security testing |
-| OWASP ZAP Web Security Assessment | Automated web vulnerability assessment |
-| Nessus Vulnerability Assessment | Infrastructure vulnerability scanning |
-| Android Vulnerability Assessment | Android security assessment using Nessus |
-| Splunk Windows Security Monitoring | Windows event monitoring and analysis |
-| Splunk Failed Login Analysis | Detection of failed Windows logon attempts |
-| Sysmon Event Analysis | Endpoint monitoring and event analysis |
-| Autopsy Digital Forensics | Digital forensic investigation |
+
+## 🌐 Network Security
+
+- **[Nmap Lab](https://github.com/johnn1992/nmap-lab)** — Network reconnaissance and service enumeration.
+- **[Wireshark Network Traffic Analysis](https://github.com/johnn1992/wireshark-network-traffic-analysis)** — Packet capture and protocol analysis.
+
+## 🌍 Web Application Security
+
+- **[Nikto Web Vulnerability Scan](https://github.com/johnn1992/nikto-web-vulnerability-scan)** — Web server vulnerability assessment.
+- **[Gobuster Directory Enumeration](https://github.com/johnn1992/gobuster-directory-enumeration)** — Directory and file enumeration.
+- **[Burp Suite Web Security Lab](https://github.com/johnn1992/burp-suite-web-security-lab)** — Manual web application testing.
+- **[OWASP ZAP Web Security Assessment](https://github.com/johnn1992/owasp-zap-web-security-assessment)** — Automated web application security testing.
+
+## 🔍 Vulnerability Assessment
+
+- **[Nessus Vulnerability Assessment](https://github.com/johnn1992/nessus-vulnerability-assessment)** — Infrastructure vulnerability scanning.
+- **[Android Vulnerability Assessment](https://github.com/johnn1992/android-vulnerability-assessment-nessus)** — Android device assessment using Nessus.
+
+## 📊 Security Monitoring
+
+- **[Splunk Windows Security Monitoring](https://github.com/johnn1992/splunk-windows-security-monitoring)** — Windows event monitoring.
+- **[Splunk Failed Login Analysis](https://github.com/johnn1992/splunk-failed-login-analysis)** — Investigation of failed logon attempts.
+- **[Sysmon Event Analysis](https://github.com/johnn1992/sysmon-event-analysis)** — Endpoint telemetry analysis.
+
+## 🕵️ Digital Forensics
+
+- **[Autopsy Digital Forensics](https://github.com/johnn1992/autopsy-digital-forensics)** — Digital forensic investigation using Autopsy.
 
 ---
 
